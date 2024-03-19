@@ -15,13 +15,13 @@ Git clone:
 git clone https://github.com/kambarg/42piscine_0224.git
 
 Change branch:
-git checkout <branch name>
+git checkout "branch name"
 
 Add you code:
-git add <file name>
+git add "file name"
 
 Commit: 
-git commit -m "<commit message>"
+git commit -m "commit message"
 
 !!! Before git push setup correct user name!!!
 Setup user name:
@@ -29,7 +29,7 @@ git config --global --edit
 git config -l
 
 Push to branch:
-git push origin <branch name>
+git push origin "branch name"
 
 !!! Currently merging to main is blocked purposely!!!
 Merge branch to main:
